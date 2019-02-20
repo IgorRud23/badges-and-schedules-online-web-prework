@@ -17,7 +17,7 @@ def assign_rooms(attendees)
     room_assignments.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1
   end
-  return room_assignments
+  room_assignments
 end
 
 def printer(attendees)
@@ -28,4 +28,3 @@ def printer(attendees)
    puts id
  end
  end
- 
